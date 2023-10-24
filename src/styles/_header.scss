@@ -1,0 +1,35 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 33px;
+    margin: 27px 60px 0 0;
+  }
+
+  &__item {
+    &__link {
+      color: black;
+      text-align: right;
+      font-size: 20px;
+      font-weight: 500;
+      position: relative;
+
+      &:after {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--Primary);
+        content: "";
+        transition: width 0.3s ease-out;
+      }
+
+      &:hover:after,
+      &:focus:after {
+        width: 100%;
+      }
+    }
+  }
+}

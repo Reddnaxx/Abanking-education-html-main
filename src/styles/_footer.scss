@@ -1,0 +1,17 @@
+.socials {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  margin-bottom: 25px;
+
+  &__item {
+    transition-duration: 200ms;
+    &:hover {
+      filter: brightness(2.5);
+    }
+  }
+}
+
+.copyright {
+  text-align: center;
+}
