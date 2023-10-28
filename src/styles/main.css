@@ -75,6 +75,22 @@
   filter: saturate(3);
 }
 
+.post {
+  background-color: white;
+  border-radius: 4px;
+  padding: 25px;
+}
+.post__title {
+  margin-bottom: 16px;
+}
+.post__tags {
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+.post__content {
+  font-size: 16px;
+}
+
 .posts {
   background-color: #EDF7FA;
   display: grid;
@@ -94,22 +110,6 @@
 }
 .posts__all:hover {
   filter: saturate(3);
-}
-
-.post {
-  background-color: white;
-  border-radius: 4px;
-  padding: 25px;
-}
-.post__title {
-  margin-bottom: 16px;
-}
-.post__tags {
-  font-size: 18px;
-  margin-bottom: 9px;
-}
-.post__content {
-  font-size: 16px;
 }
 
 .work {
@@ -173,8 +173,7 @@
 .socials__item:hover {
   filter: brightness(2.5);
 }
-
-.copyright {
+.socials__copyright {
   text-align: center;
 }
 
